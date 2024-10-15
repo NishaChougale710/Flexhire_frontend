@@ -1,0 +1,12 @@
+<nav>
+    <ul>
+        <li>
+            <a [routerLink]="'/home'" [ngClass]="{'active': isActive('/home')}">Home</a>
+        </li>
+        <li>
+            <a [routerLink]="'/about'" [ngClass]="{'active': isActive('/about')}">About</a>
+        </li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>

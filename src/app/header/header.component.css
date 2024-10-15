@@ -1,0 +1,24 @@
+.active{
+    font-weight: bold;
+    color: #007bff;   /* Eg. of active color*/
+} 
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #007bff;
+}  
